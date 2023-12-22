@@ -1,1 +1,228 @@
+body {
+  color: var(--text-color);
+}
 
+.theme-dark {
+  background-color: var(--background-primary);
+}
+
+/* Containers Styling */
+.container-3auIfp,
+.container-1r6BKw {
+  background-color: var(--background-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Server List and Channel List Styling */
+.guilds-1SWlCJ,
+.channel-2QD9_O {
+  background-color: var(--background-secondary);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+}
+
+/* Chat Message Styling */
+.message-2qnXI6 {
+  background-color: #41454b;
+  border-radius: var(--border-radius);
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+/* User Popout Styling */
+.userPopout-xaxa6l {
+  background-color: var(--background-secondary);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+}
+
+/* User Popout Header Styling */
+.userPopoutHeader-2N6RAJ {
+  background-color: var(--accent-color);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+/* Accent Color for Header */
+.theme-dark .header-2o-2zV-gBdbsmKtCnOKVu {
+  background-color: var(--accent-color);
+  border-radius: 0;
+}
+
+/* Unread Indicator Styling */
+.unread-3coSE9 {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+/* Mention Highlight */
+.markup-2BOw-j,
+.userPopout-xaxa6l .mentioned-xHuoAZ {
+  background-color: rgba(114, 137, 218, 0.3);
+  border-radius: var(--border-radius);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: var(--border-radius);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-secondary);
+}
+
+/* Voice Channel Styling */
+.channel-2QD9_O:hover {
+  background-color: #484b52;
+}
+
+/* Server Member List Styling */
+.members-1998pB {
+  background-color: var(--background-secondary);
+  border-radius: var(--border-radius);
+}
+
+/* User Status Icons */
+.avatar-1BXaQj {
+  border: 2px solid var(--background-secondary);
+  border-radius: 50%;
+}
+
+/* Server Icon Styling */
+.guildIcon-3Z-1Jy {
+  border-radius: var(--border-radius);
+}
+
+/* Member Nickname Styling */
+.memberNickname-1vp7Ld {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+/* Message Timestamp Styling */
+.timestamp-3ZCmNB {
+  color: #b0b0b0;
+}
+
+/* Channel Topic Styling */
+.topic-TCb_qw {
+  color: #b0b0b0;
+}
+
+/* Voice Connection Indicator Styling */
+.connectionStatus-3aLXkd {
+  color: var(--accent-color);
+}
+
+/* Button Styling */
+.button-2t3of8 {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+.button-2t3of8:hover {
+  background-color: darken(var(--accent-color), 10%);
+}
+
+/* Message Attachment Styling */
+.attachment-33OFj0 {
+  background-color: var(--background-secondary);
+  border-radius: var(--border-radius);
+  margin: 8px;
+  padding: 8px;
+}
+
+/* Message Link Styling */
+.anchor-3Z-8Bb {
+  color: var(--accent-color);
+}
+
+/* Code Block Styling */
+.hljs {
+  background-color: #36393f;
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  overflow: auto;
+  padding: 8px;
+}
+
+/* Modal Styling */
+.modal-2aA7s6 {
+  background-color: var(--background-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tooltip Styling */
+.tooltip-2QfLtc {
+  background-color: var(--background-secondary);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  padding: 6px;
+}
+
+/* Mentions Styling */
+.mention-1R9Jwu {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Emoji Picker Styling */
+.emojiPicker-3_p93g {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Autocomplete Styling */
+.autocomplete-1rHVSr {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Context Menu Styling */
+.contextMenu-uoJTbz {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Message Actions Styling */
+.messageAction-1Yshre {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Voice States Styling */
+.voiceStates-1XBo5B {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* System Message Styling */
+.systemMessage-1BR2M4 {
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Server Discovery Styling */
+.discover-3e3HCg {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Server Folders Styling */
+.folder-1ZxJgL {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Stage Instance Styling */
+.stageInstance-1Z8kG6 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Invite Popout Styling */
+.invitePopout-3UYxKY {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
